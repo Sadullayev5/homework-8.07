@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <form id="form">
+        <h2>Bozorlik uchun mahsulotlar ro'yxati yasang</h2>
+        <input type="text" id="nameInput" placeholder="Nomi">
+        <input type="text" id="amountInput" placeholder="Miqdori">
+        <input type="text" id="priceInput" placeholder="Narxi">
+        <button>Saqlash</button>
+    </form>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nomi</th>
+                <th>Miqdori</th>
+                <th>Narxi</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+    <table class="total">
+        <tr>
+            <th>Jami</th>
+            <th>Jami miqdori</th>
+            <th>Jami narxi</th>
+        </tr>
+        <tbody>
+            <tr>
+                <th id="count">0</th>
+                <th id="amount">0</th>
+                <th id="sum">0</th>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script src="./script/app.js"></script>
+</body>
+</html>
